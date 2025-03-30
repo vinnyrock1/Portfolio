@@ -1,3 +1,10 @@
+body{
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -13,11 +20,12 @@
     width: 64px;
     height: 64px;
     display: block;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 .slides-navigation a.prev {
@@ -40,6 +48,7 @@
 }
 
 .titleMessage .heading p {
+    position: auto;
     color: #FFA500;
     text-shadow: 5px 2px 5px rgba(0, 0, 0, 1.0);
     font-weight: 300;
@@ -47,13 +56,17 @@
 }
 
 .titleMessage .heading .main {
-    font-size: 130px;
+    font-size: 80px;
+    text-size-adjust: auto;
+    position: auto;
 }
 
 .titleMessage .sub {
-    font-size: 70px;
+    font-size: 60px;
+    position: auto;
     color: #fff;
     text-shadow: 5px 2px 5px rgba(0, 0, 0, 1.0);
+    text-size-adjust: auto;
 }
 
 .section {
@@ -68,26 +81,34 @@
 
 
 .aboutImage {
+
     display: table;
     max-width: 20%;
     height: 20%;
     border-radius: 90px;
     margin: 100;
-    padding: 30px 0 30px 0
-
+    padding: 30px 0 30px 0;
+        position: relative;
 }
+
+
 
 .background-section {
-    background-image: url(img/background.jpg);
+    background-image: url(../img/shuffle2.JPG);
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
     padding: 20px;
     position: relative;
+    color: #black;
+    text-shadow:
+  1px 1px 2px yellow,
+  0 0 1em orange,
+  0 0 0.2em red; ;
 }
 
-.background-section::before {
+.background-section:.before {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -99,4 +120,46 @@
 .background-section p {
     position: relative;
     z-index: 2; /* Mantém o texto acima da camada escura */
+}
+
+.skillsSection {
+
+    background-color: #e74c3c;
+    font-size: 14px;
+    color: #fff;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+.skillsSection1 {
+    background-color: #e74c3c;
+    font-size: 14px;
+    color: #fff;
+    margin: 6px;
+    letter-spacing: 1px;
+}
+.skill {
+    text-align: center;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+
+
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+p {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
