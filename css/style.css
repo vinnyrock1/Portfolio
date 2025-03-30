@@ -94,7 +94,7 @@ body{
 
 
 .background-section {
-    background-image: url(../img/shuffle2.JPG);
+    background-image: url(/img/shuffle2.JPG);
     background-size: cover;
     background-position: absolute;
     padding: 20px;
