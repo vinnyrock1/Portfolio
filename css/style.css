@@ -82,7 +82,7 @@ body{
 
 .aboutImage {
 
-   
+    
     max-width: 20%;
     height: 20%;
     border-radius: 90px;
@@ -94,8 +94,9 @@ body{
 
 
 .background-section {
-    background-image: url(/img/shuffle2.JPG);
+    background-image: url(../img/shuffle2.jpg);
     background-size: cover;
+    display: true;
     background-position: absolute;
     padding: 20px;
     position: relative;
