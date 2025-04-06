@@ -37,5 +37,4 @@ $('.chart').easyPieChart({
         });
 
 
-
     });	
