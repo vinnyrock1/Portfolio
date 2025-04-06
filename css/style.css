@@ -132,12 +132,13 @@ body{
     letter-spacing: 2px;
 }
 
-.skillsSection1 {
+.skillsSection {
     background-color: #e74c3c;
     font-size: 14px;
     color: #fff;
     margin: 6px;
     letter-spacing: 1px;
+        margin-left: 25px;
 }
 .skill {
     text-align: center;
@@ -148,7 +149,7 @@ body{
     width: 152px;
     height: 152px;
     display: inline-block;
-    margin-left: 25px;
+
     text-align: center;
 
 
@@ -161,6 +162,38 @@ body{
 
 }
 
+
+.chart  .percent {
+color: #000;
+line-height: 152px;
+display: inline-block;
+font-size: 35px;
+
+}
+
+.chart  .percent:after {
+    content: '%';
+
+}
+
+
+
 p {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid#fff;
+    border-radius: 2px;   
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color: #e74c3c;
+    background-color: #fff;
+    
 }
