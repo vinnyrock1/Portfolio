@@ -27,7 +27,7 @@ $('.chart').easyPieChart({
             barColor:'#fff',
             trackColor: false,
             scaleColor: false,
-            lineWidth: 5,
+            lineWidth: 4,
             size: 152,
             onstep:function(from,to,percent) {
             	$(this.el).find('.percent').text(Math.round(percent));
