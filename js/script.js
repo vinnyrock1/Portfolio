@@ -36,7 +36,7 @@ $('.chart').easyPieChart({
 
         });
 
-fetch("https://teusite.com/visit")
+fetch("https://vinnyrock1.github.io/Portfolio/")
   .then(res => res.json())
   .then(data => {
     document.getElementById("counter").innerText =
