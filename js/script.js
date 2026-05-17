@@ -36,5 +36,10 @@ $('.chart').easyPieChart({
 
         });
 
-
+fetch("https://teusite.com/visit")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("counter").innerText =
+      `Humans who entered the dungeon: ${data.visits}`;
+  });
     });	
