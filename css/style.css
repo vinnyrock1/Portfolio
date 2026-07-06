@@ -1,5 +1,5 @@
 body{
-    font-size: 14px;
+    font-size: 15.7px;
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
@@ -126,19 +126,21 @@ body{
 .skillsSection {
 
     background-color: #e74c3c;
-    font-size: 14px;
+    font-size: 24px;
     color: #fff;
     margin: 0px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+
 }
 
 .skillsSection {
     background-color: #e74c3c;
     font-size: 14px;
     color: #fff;
-    margin: 6px;
+    margin-left: -60px;
+    margin-right: -60px;
     letter-spacing: 1px;
-        margin-left: 25px;
+
 }
 .skill {
     text-align: center;
